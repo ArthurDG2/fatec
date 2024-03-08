@@ -1,0 +1,32 @@
+#main{
+    width: 90%;
+    margin: 0 auto;/* top/bottom - 0; left/right - auto */
+}
+body{
+    box-sizing: border-box;
+    background-color:darkslategray;
+    color:aliceblue;
+}
+a{
+    color:aliceblue
+}
+h1{
+    text-align: center;
+}
+#dados-contato, #foto{
+    float: left;
+}
+#dados-contato{
+    width: 70%;
+}
+#foto{
+    width: 30%;
+    text-align: right;
+}
+#foto img{
+    width: 34w;
+    height: 34vh;
+}
+#formacao{
+    clear: left;
+}
